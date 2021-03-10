@@ -1,0 +1,3 @@
+import os
+
+os.system("gnome-terminal --working-directory='/home/sushma/Downloads/android-cts/tools' -x sh -c './cts-tradefed; run cts --plan CTS;   exec bash'")

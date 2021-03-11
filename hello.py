@@ -1,3 +1,5 @@
-# Hello world 
+import os 
+d=os.popen("adb devices").read()
+print(d)
 
-print ("Hello world")
+os.system("sudo /home/sushma/Downloads/android-cts/tools/cts-tradefed run cts")

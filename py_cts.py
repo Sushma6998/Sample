@@ -23,6 +23,6 @@ time.sleep((1000*100)/1000)
 os.popen("adb shell dmesg >kernel3log.txt")
 
 #run cts
-os.system("gnome-terminal --working-directory='/home/sushma/Downloads/android-cts/tools' -e 'bash -c \"./cts-tradefed run cts; exec bash\"'")
+#os.system("gnome-terminal --working-directory='/home/sushma/Downloads/android-cts/tools' -e 'bash -c \"./cts-tradefed run cts; exec bash\"'")
 
 

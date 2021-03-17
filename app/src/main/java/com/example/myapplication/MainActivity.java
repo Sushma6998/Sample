@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button buttonsum;
+    private Button buttonsum,b;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +26,16 @@ public class MainActivity extends AppCompatActivity {
               }
               
           });
-              
+        // b= (Button) findViewById(R.id.button2);
+        b.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+            }
+
+        });
+
+
+
+
     }
  } 

@@ -20,7 +20,7 @@ os.system("adb shell monkey -v --throttle 100 -p com.example.MyApplication 1000 
 time.sleep((1000*100)/1000)
 
 #kernel log
-os.popen("adb shell dmesg >kernel3log.txt")
+#os.popen("adb shell dmesg >kernel3log.txt")
 
 #run cts
 #os.system("gnome-terminal --working-directory='/home/sushma/Downloads/android-cts/tools' -e 'bash -c \"./cts-tradefed run cts; exec bash\"'")

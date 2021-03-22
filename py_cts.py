@@ -16,7 +16,7 @@ os.system("./gradlew clean installDebug ")
 
 #testing and collecting logcat
 
-os.system("adb shell monkey -p com.example.myapplication -v 100 &> test11log.txt")
+os.system("adb shell monkey -p com.example.myapplication -v 100 2> test11log.txt")
 time.sleep((1000*100)/1000)
 
 #kernel log

@@ -16,11 +16,11 @@ os.system("./gradlew clean installDebug ")
 
 #testing and collecting logcat
 
-os.system("adb shell monkey -v --throttle 100 -p com.example.myapplication 1000 2> test11log.txt")
+os.system("adb shell monkey -v --throttle 100 -p com.example.myapplication 1000 &> test11log.txt")
 time.sleep((1000*100)/1000)
 
 #kernel log
-os.popen("adb shell dmesg >kernel3log.txt")
+os.popen("adb shell dmesg > kernel3log.txt")
 
 #run cts
 os.system("sudo /home/sushma/Downloads/android-cts/tools/cts-tradefed run cts")

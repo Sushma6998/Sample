@@ -1,6 +1,6 @@
 import os
 import time
-mydir = "/var/lib/jenkins/workspace/BASIC_BUILD"
+mydir = "/var/lib/jenkins/workspace/Project_new"
 print("Specified Kernel Exception is coming from the below lines:") 
 for subdir,dirs,files in os.walk(mydir):
     for filename in files:
